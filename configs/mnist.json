@@ -1,0 +1,20 @@
+{
+  "dataset": "MNIST",
+  "data_dir": "data",
+  "download": true,
+  "wandb_mode": "offline",
+  "model": {"n_features_to_select": 10},
+  "cl_epochs": 20,
+  "batch_size": 128,
+  "loaders_workers": 0,
+  "validation_size": 0.1,
+  "num_experiments": 1,
+  "project_name": "dfs-supervised",
+  "experiment_name": "mnist-10-features",
+  "reconstruction": {
+    "enabled": false,
+    "autoencoder": "unet",
+    "epochs": 20,
+    "log_images": true
+  }
+}
