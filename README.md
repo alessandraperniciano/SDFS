@@ -1,8 +1,8 @@
 # Supervised dynamic feature selection
 
-PyTorch/Lightning experiments for supervised image feature selection with DDS and
-L2X. A classifier learns from selected image features. An optional reconstruction
-stage trains a separate decoder to measure how much of the original image can be
+PyTorch/Lightning experiments for supervised image feature selection with DDS.
+A classifier learns from selected image features. An optional reconstruction stage
+trains a separate decoder to measure how much of the original image can be
 recovered from the classifier input.
 
 ## Installation
